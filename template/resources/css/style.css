@@ -1,0 +1,46 @@
+.carousel-item .card-media
+{   
+    min-height: 255px;
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
+    filter: grayscale(90%);
+    transition: all 0.5s ease;
+}
+
+.carousel-item .card .col-md-4:hover > .card-media,
+.card:hover > .media-img-top
+{
+    filter: grayscale(0%);
+}
+
+.media-img-top
+{
+    max-height: 250px;
+    filter: grayscale(90%);
+    transition: all 0.5s ease;
+}
+
+.tagCloud a,
+.tagCloud a:hover,
+.tagCloud a:active,
+.tagCloud a:visited
+{
+    text-decoration: none;
+    padding: 10px;
+    margin: 2px 0;
+    color: #fff;
+}
+
+.carousel-control-prev,
+.carousel-control-next
+{
+    background: rgba(20, 20, 20, 0.212);
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
