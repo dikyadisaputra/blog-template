@@ -1,3 +1,33 @@
+.navbar .nav-item a,
+.navbar-brand
+{
+    font-size: 25px !important;
+    color: #cbdada !important;
+}
+
+.navbar .nav-item a:hover,
+.navbar-brand:hover
+{
+    color: #fff !important;
+}
+
+.navbar .dropdown-menu
+{
+    background: #191818 !important;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover
+{
+    background: #000 !important;
+}
+
+.navbar .dropdown-menu .dropdown-divider
+{
+    background: #ccc !important;
+}
+
+
+
 .carousel-item .card-media
 {   
     min-height: 255px;
