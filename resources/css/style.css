@@ -26,6 +26,47 @@
     background: #ccc !important;
 }
 
+.navbar #thumbPropicNav
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#sideNav .accordion-body
+{
+    padding: 0 !important;
+}
+
+#sideNav button
+{
+    font-size: 22px;
+}
+
+#sideNav .accordion-button:focus 
+{
+    border-color: #e6e5e5 !important;
+    box-shadow: none !important;
+}
+
+.subNavSide
+{
+    width: 100%;
+    padding: 15px 50px;
+    background: #e6e5e5;
+    color: #020202;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-top: 1px solid #757575;
+}
+
+.subNavSide:hover
+{
+    color:#a7edff;
+    background-color: #252525;
+}
 
 .carousel-item .card-media,
 .singleRowPost .card-media
@@ -99,8 +140,13 @@
     border-radius: 50%;
 }
 
-.profile-block .h2
+.bio-block .social a
 {
-    display: inline;
-    margin-left: 15px;
+    font-size: 22px;
 }
+
+.bio-block .social .fa-github
+{
+    color: #000;
+}
+
