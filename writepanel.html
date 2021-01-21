@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard | Mahadi Hasan</title>
+    <title>Writepanel | Mahadi Hasan</title>
     
     <!-- CSS -->
     <link rel="stylesheet" href="resources/css/vendor/bootstrap.min.css">
@@ -18,14 +18,7 @@
     <script src="resources/js/vendor/owl.carousel.min.js" type="text/javascript"></script>
     <script src="resources/js/vendor/apexcharts.min.js" type="text/javascript"></script>
     <script src="resources/js/vendor/tinymce/tinymce.min.js" type="text/javascript"></script>    
-    <script src="resources/js/app.js" type="text/javascript"></script>
-    
-    <script type="text/javascript">
-        $(document).ready(function(){
-            showPostCount();
-        });
-    </script>
-
+    <script src="resources/js/app.js" type="text/javascript"></script>   
     
 </head>
 <body>
@@ -122,8 +115,23 @@
 
                     <div class="row g-2">
 
-                        <div class="col-md-7 col-sm-12">
-                            <div class="border p-2" id="chartPostCount">
+                        <div class="col-12">
+                            <div class="border p-2">
+
+                                <form action="#" method="post">
+
+                                    <div class="mb-3">
+                                        <label for="title" class="form-label">Post Title</label>
+                                        <input type="text" class="form-control rounded-0" name="title" id="title" placeholder="A good day to write a post">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="content" class="form-label">Post Content</label>
+                                        <textarea class="form-control rounded-0" name="content" id="content" rows="3"></textarea>
+                                    </div>
+
+                                    <button class="btn btn-primary rounded-0">Publish</button>
+                                </form>
 
                             </div>
                         </div>
@@ -142,7 +150,10 @@
                 &copy; 2021 | All rights reserved
             </div>
         </div>
-    </footer>    
-    <
+    </footer>
+
+    <script>
+        tinymce.init({selector:'#content'});
+    </script>
 </body>
 </html>

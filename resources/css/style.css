@@ -53,13 +53,18 @@
 {
     width: 100%;
     padding: 15px 50px;
-    background: #e6e5e5;
+    background: #f5f5f5;
     color: #020202;
     font-size: 20px;
     display: flex;
     align-items: center;
     text-decoration: none;
-    border-top: 1px solid #757575;
+    border-top: 1px solid #dee2e6;
+}
+
+#sideNav .subNavSide:nth-child(1)
+{
+    border-top: none !important;
 }
 
 .subNavSide:hover
