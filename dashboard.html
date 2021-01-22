@@ -23,6 +23,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             showPostCount();
+            showCommentsCount();
         });
     </script>
 
@@ -117,14 +118,20 @@
             
 
             <div class="col-md-8 col-sm-12">
-                <div class="border p-5">
-                    <h2 class="h2">Dashboard</h2>
+                <div class="border p-2">
+                    <h2 class="h2 mb-3">Dashboard</h2>
 
                     <div class="row g-2">
 
-                        <div class="col-md-7 col-sm-12">
+                        <div class="col-md-6 col-sm-12">
                             <div class="border p-2" id="chartPostCount">
 
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12">
+                            <div class="border p-2" id="chartCommentsCount">
+                                
                             </div>
                         </div>
 

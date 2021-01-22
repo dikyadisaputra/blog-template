@@ -35,7 +35,42 @@
         };
         var chart = new ApexCharts(document.querySelector("#chartPostCount"), postCount);
         chart.render();
+    }
+
+
+    function showCommentsCount()
+    {
+         var comments = {
+            series: [44, 32, 24],
+            chart: {
+              type: 'donut',
+            },
+
+            title: {
+              text: 'Comments from Readers',
+              align: 'left'
+            },
+
+            labels: ['Approved', 'Rejected', 'Pending'],
+
+            responsive: [{
+              breakpoint: 480,
+              options: {
+                chart: {
+                  width: 200
+                },
+                legend: {
+                  position: 'bottom'
+                }
+              }
+            }]
+          };
+
+          var chart = new ApexCharts(document.querySelector("#chartCommentsCount"), comments);
+          chart.render();
     }  
+
+
 
 $(document).ready(function(){
 

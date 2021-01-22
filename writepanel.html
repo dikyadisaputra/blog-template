@@ -110,33 +110,40 @@
             
 
             <div class="col-md-8 col-sm-12">
-                <div class="border p-5">
-                    <h2 class="h2">Dashboard</h2>
+                <div class="border p-4">
+                    <h2 class="h2">Write a post</h2>
 
-                    <div class="row g-2">
+                    <form action="#" method="post">
 
-                        <div class="col-12">
-                            <div class="border p-2">
-
-                                <form action="#" method="post">
-
-                                    <div class="mb-3">
-                                        <label for="title" class="form-label">Post Title</label>
-                                        <input type="text" class="form-control rounded-0" name="title" id="title" placeholder="A good day to write a post">
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="content" class="form-label">Post Content</label>
-                                        <textarea class="form-control rounded-0" name="content" id="content" rows="3"></textarea>
-                                    </div>
-
-                                    <button class="btn btn-primary rounded-0">Publish</button>
-                                </form>
-
-                            </div>
+                        <div class="mb-3">
+                            <label for="title" class="form-label">Post Title</label>
+                            <input type="text" class="form-control rounded-0" name="title" id="title" placeholder="A good day to write a post">
                         </div>
 
-                    </div>
+                        <div class="mb-3">
+                            <label for="picture" class="form-label">Feature Image</label>
+                            <input type="file" class="form-control rounded-0" name="picture" id="picture">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="content" class="form-label">Post Content</label>
+                            <textarea class="form-control rounded-0" name="content" id="content" rows="15"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select a Category</option>
+                                <option value="1">Programming</option>
+                                <option value="2">Database</option>
+                                <option value="3">Opinion</option>
+                            </select>
+                        </div>
+
+                        <button class="btn btn-primary rounded-0">Publish</button>
+                        <a href="#" class="btn btn-dark rounded-0">Save as Draft</a>
+                    </form>
+
+
                 </div>
             </div>
 
