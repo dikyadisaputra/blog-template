@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile | Mahadi Hasan</title>
+    <title>Contact | Mahadi Hasan</title>
     
     <!-- CSS -->
     <link rel="stylesheet" href="resources/css/vendor/bootstrap.min.css">
@@ -77,17 +77,21 @@
             
             <div class="col-md-9 col-sm-12">              
 
-                <div class="row g-3 mt-3">
+                <div class="row g-3">
 
                     <div class="col-4">
 
                         <div class="border p-3">
 
-                            <h3 class="text-success">Find me on</h3>
-                            <a href=""><i class="fab fa-linkedin"></i></a>
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook"></i></a>
-                            <a href=""><i class="fab fa-github"></i></a>
+                            <h3 class="text-center text-success">Find me on</h3>
+                            <hr>
+                            <div class="text-center my-4">
+                                <a href="" class="contact-social icon-li"><i class="fab fa-linkedin"></i></a>
+                                <a href="" class="contact-social icon-tw"><i class="fab fa-twitter"></i></a>
+                                <a href="" class="contact-social icon-fb"><i class="fab fa-facebook"></i></a>
+                                <a href="" class="contact-social icon-gh"><i class="fab fa-github"></i></a>
+                            </div>
+                            
                         </div>
 
                     </div>
@@ -96,7 +100,11 @@
 
                         <div class="border p-3">
 
-                            
+                            <h3 class="text-center text-success">I reside in</h3>
+                            <hr>
+                            <div class="text-center my-4">
+                                <p class="fs-6"><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
+                            </div>                            
 
                         </div>
 
@@ -106,8 +114,63 @@
 
                         <div class="border p-3">
 
-                            
+                            <h3 class="text-center text-success">Write me</h3>
+                            <hr>
+                            <div class="text-center my-4">
+                                <p class="fs-6"><i class="fas fa-envelope"></i> hello@mahadi.xyz</p>
+                            </div>   
 
+                        </div>
+
+                    </div>
+
+                    <!-- Form -->
+                    <div class="col-12">
+
+                        <div class="border p-5">
+
+                            <h2 class="text-center text-danger">Say Hi!</h2>
+                            
+                            <div class="mb-4">
+                                <hr>
+                            </div>
+                            
+                            <form action="">
+                                <div class="row mb-3">
+
+                                    <div class="col">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control rounded-0" id="name" placeholder="John Doe">
+                                            <label for="name">Your Name</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control rounded-0" id="email" placeholder="name@example.com">
+                                            <label for="email">Email address</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                                
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control rounded-0" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control rounded-0" placeholder="Leave a comment here" id="message" style="height: 150px;"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary rounded-0">Send</button>
+                                <button type="submit" class="btn btn-dark rounded-0">Cancel</button>
+
+
+                            </form>
+                            
                         </div>
 
                     </div>
