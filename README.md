@@ -1,5 +1,7 @@
 # Blog Template
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/mahadixyz/blog-template?style=flat-square)
+![GitHub all releases](https://img.shields.io/github/downloads/mahadixyz/blog-template/total?style=flat-square)
 ![Language](https://img.shields.io/github/languages/count/mahadixyz/blog-template?style=flat-square)
 ![Lines of code](https://img.shields.io/tokei/lines/github/mahadixyz/blog-template?label=total%20lines%20of%20code&style=flat-square)
 ![Repo size](https://img.shields.io/github/repo-size/mahadixyz/blog-template?style=flat-square)
@@ -7,7 +9,7 @@
 ![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat-square)
 ![Last-commit](https://img.shields.io/github/last-commit/mahadixyz/blog-template?style=flat-square)
 
-A User Interface of blog site. Fully responsive, mobile friendly. Have option to Registration and Login. Admin Dashboard for managing the site. Fully featured WYSIWYG editor for writepanel.
+A User Interface of a simple blogging site. Fully responsive, mobile friendly. Have option to Registration and Login. Admin Dashboard for managing the site. Fully featured WYSIWYG editor for writepanel.
 
 ## Developed with
 
