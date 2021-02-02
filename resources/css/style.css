@@ -145,6 +145,12 @@
     border-radius: 50%;
 }
 
+.verified-check
+{
+    color: #0062ff;
+    font-size: 1.2rem !important;
+}
+
 .user-media
 {
     width: 100px !important;
